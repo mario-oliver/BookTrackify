@@ -1,6 +1,6 @@
 import AtomicHabitsImage from './images/atomic-habits-img.jpg'
 import BreakingHabitImage from './images/breakingthehabitofyourself-image.jpg'
-import lawsOfHumanNatureImage from './images/laws-of-human-nature-img.webp'
+import lawsOfHumanNatureImage from './images/lawsofhumannature.jpg'
 
 export const books = [
   {

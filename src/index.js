@@ -11,11 +11,14 @@ const BookList = () => {
   }
 
   return (
-    <section className="booklist">
-      {books.map((book) => (
-        <Book {...book} key={book.id} logValue={getBook} />
-      ))}
-    </section>
+    <>
+      <h1>Mario's Best Books</h1>
+      <section className="booklist">
+        {books.map((book, index) => (
+          <Book {...book} key={book.id} logValue={getBook} order={index} />
+        ))}
+      </section>
+    </>
   )
 }
 
